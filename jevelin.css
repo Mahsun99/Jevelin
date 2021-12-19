@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Readex Pro', sans-serif;
+}
+body{
+    background-image: url(../jevelin/business-1536236_960_720.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.birinci{
+    display: flex;
+    width: 100%;
+    height: 35px;
+    position: relative;
+    border: 2px solid white;
+    line-height: 15px;
+    
+    
+}
+.sol{
+    display: flex;
+
+}
+.sol ul{
+    list-style: none;
+}
+.sol ul li{
+    margin: 10px;
+
+}
+.sol ul li a{
+    color: white;
+    text-decoration: none;
+}
+.sol ul li a i{
+    margin: 5px;
+}
+.sag{
+    display: flex;
+    position: absolute;
+    right: 0;
+    
+}
+.sag ul{
+    list-style: none;
+    margin: 9px 5px;
+}
+.search{
+    list-style: none;
+    margin: 9px 10px;
+    color: #fff;
+    padding:0 20px ;
+
+}
+.sag a{
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+}
+nav h1{
+    color: white;
+    margin: 20px;
+    font-size: 64px;
+}
+.navbar ul{
+    list-style: none;
+    color: white;
+    margin: 20px;
+    
+}
+      
+.navbar ul li a{
+    color: #fff;
+}
+.navbar ul li:hover{
+    width: 100%;
+    border-bottom: 2px solid red;
+    
+}
+.navbar input{
+    width: 120px;
+    height: 45px;
+    margin: 10px 15px;
+    background-color: rgb(21, 21, 190);
+    color: white;
+    border: white;
+    border-radius: 10px;
+    transition: 1s;      
+}
+
+.navbar input:hover{
+    background-color: initial;
+    font-size: 25px;
+}
+.orta{
+    text-align: center;
+    margin-top: 120px;
+
+}
+.orta h3,h1{
+    color:rgb(253, 253, 253);
+    
+
+}
+.orta h3{
+    font-size: 25px;
+    font-weight: 250;
+}
+.orta h1{
+    font-weight: 100;
+    font-size: 65px;
+    letter-spacing: 2px;
+}
+.mause{
+    display: flex;
+    justify-content:space-around;
+
+}
+.mause h3,p{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+.ikinci{
+    margin-top: 80px;
+}
+.biriki:hover{
+    transition: 1.5s,;
+    background: violet;
+    color: white;
+}
+.biriki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 251, 0);
+    border-radius: 10px;
+    transition: 1.5s;
+}
+.mause h3{
+    margin:18px 0;
+}
+
+
+
+
+
